@@ -6,7 +6,6 @@ import {
   Trash2,
   Info,
   Check,
-  Compass,
   Sparkles,
   Heart,
   ShieldCheck,
@@ -16,7 +15,6 @@ import { getTranslation } from "@/data/i18n";
 import { useIsHydrated } from "@/hooks/useIsHydrated";
 import { GsapReveal } from "@/components/common/GsapReveal";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
 
 export default function SettingsPage() {
