@@ -70,7 +70,7 @@ export function PlaceDetailView({ place }: PlaceDetailViewProps) {
           await navigator.clipboard.writeText(window.location.href);
           toast.success(t.detail.copiedLink);
         }
-      } catch (e) {
+      } catch {
         // user aborted share or clipboard error
       }
     }

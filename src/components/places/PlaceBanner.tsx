@@ -2,18 +2,18 @@
 
 import React from "react";
 import { PlaceCategory } from "@/types";
-import { Trees, Compass, Landmark, Coffee, MapPin, Sparkles } from "lucide-react";
+import { Trees, Compass, Landmark, Coffee, Sparkles } from "lucide-react";
 
 interface PlaceBannerProps {
   category: PlaceCategory;
-  className?: string;
   seedTitle?: string;
+  className?: string;
 }
 
 export function PlaceBanner({
   category,
+  seedTitle: _seedTitle,
   className = "",
-  seedTitle = "",
 }: PlaceBannerProps) {
   // Category-based aesthetic gradients and ambient icons
   const getBannerConfig = () => {

@@ -1,14 +1,13 @@
 "use client";
 
 import React from "react";
-import { Search, X, SlidersHorizontal, MapPin, Tag, Sparkles } from "lucide-react";
+import { Search, X, MapPin, Tag } from "lucide-react";
 import { ALL_CATEGORIES, ALL_ZONES, POPULAR_TAGS } from "@/data/places";
 import { useIesiriStore } from "@/store/useIesiriStore";
 import { getTranslation } from "@/data/i18n";
 import { PlaceCategory, Zone } from "@/types";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 
 interface PlaceFiltersProps {
   totalResults: number;

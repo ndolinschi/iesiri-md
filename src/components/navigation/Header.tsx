@@ -8,7 +8,6 @@ import {
   Heart,
   Settings,
   Sparkles,
-  MapPin,
   Trees,
 } from "lucide-react";
 import { useIesiriStore } from "@/store/useIesiriStore";

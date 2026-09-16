@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import Link from "next/link";
-import { Heart, Clock, MapPin, Sparkles, ChevronRight, Tag } from "lucide-react";
+import { Heart, Clock, MapPin, Sparkles, ChevronRight } from "lucide-react";
 import { Place } from "@/types";
 import { useIesiriStore } from "@/store/useIesiriStore";
 import { getTranslation } from "@/data/i18n";
